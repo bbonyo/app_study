@@ -1,3 +1,15 @@
+##  function App () {}형식의 정의는 render()와 return()함수를 쓸때 ;가 필요하다는 error를 발생시킨다.
+    class App extends React.Component() {}는 잘못된 형식
+    class App extnds React.Component{} 가 올바른 형식
+    대문자와 소문자를 구분하므로 주의
+    extends Component{}로 class를 간단히 시작하려면
+    상단에
+    import React, {Component} from 'react';라는 구문을 넣어주면 된다.
+    풀이하자면 react로부터 Component object를 가져다 쓸 거라는 내용인 것 같다.
+    {} 는 객체object를 의미하는 것 같다.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
